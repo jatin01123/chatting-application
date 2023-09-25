@@ -139,6 +139,8 @@ public class Server extends JFrame {
         name.setForeground(Color.white);
         name.setFont(new Font("SAN_SERIF",Font.BOLD,18));
         headerPanel.add(name);
+        
+        
 
     }
 

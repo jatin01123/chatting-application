@@ -19,6 +19,7 @@ public class Client extends JFrame {
     BufferedReader in;
     PrintWriter sent;
     String out;
+    Socket s=null;
 
 
 
@@ -44,7 +45,7 @@ public class Client extends JFrame {
     }
 
     private void startClient(){
-        Socket s=null;
+        
             try{
                 s = new Socket("127.0.0.1",4044);
 
